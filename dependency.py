@@ -12,8 +12,10 @@ def draw_square(square):
 def draw_flower():
 
     tl = turtle.Turtle()
+    screen = turtle.Screen()
     tl.shape("turtle")
     tl.color("pink")
+    screen.setup(1000, 1000)
 
     for i in range(0, 36):
         draw_square(tl)
